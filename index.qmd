@@ -1,0 +1,15 @@
+---
+title: "Datapages"
+subtitle: "Tools and templates for rich data sharing"
+description: |
+  Findable, accessible, interoperable, and reusable (FAIR) data sharing is a key component of open science, but presents a challenge for researchers, especially those with limited technical expertise or resources. If datasets are shared, it's most often as static files, restricting the FAIRness of the data. Datapages bridges this gap by enabling researchers and other data distributors to easily share versioned datasets along with interactive visualizations, rich documentation, and user-friendly access functionality.
+
+  Datapages are made using [Quarto](https://quarto.org/), with interactive visualizations in [Observable](https://observablehq.com/), and hosted on [GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages). The data are stored on [Redivis](https://redivis.com).
+listing:
+  - id: gallery
+    template: gallery.ejs
+    contents: gallery.yml
+---
+
+::: {#gallery .column-page}
+:::

@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "datapages"
+  # navbar:
+  #   left:
+  #     - href: index.qmd
+  #       text: Home
+  #     - about.qmd
+
+format:
+  html:
+    title-block-banner: var(--bs-light)
+    title-block-banner-color: var(--bs-body-color)
+    theme: [cosmo, theme.scss]
+    mainfont: Nunito Sans
+    fontsize: 1rem
+    grid:
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 0px

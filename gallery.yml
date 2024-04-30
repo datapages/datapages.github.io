@@ -1,0 +1,34 @@
+- category: Gallery
+  # description: |
+  #   Write a single markdown file and create output in a variety of formats.
+  tiles:
+    - title: Palmer Penguins
+      subtitle: A great dataset for data exploration & visualization
+      href: https://datapages.github.io/datapage
+      code: https://github.com/datapages/datapage
+      thumbnail: images/datapage.png
+    - title: Harmonized Learning Outcomes
+      subtitle: Measuring human capital using global learning data
+      href: https://datapages.github.io/hlo
+      code: https://github.com/datapages/hlo
+      thumbnail: images/hlo.png
+    - title: Numberbank
+      subtitle: "Collaborative database of children's numerical language"
+      href: https://datapages.github.io/numberbank
+      code: https://github.com/datapages/numberbank
+      thumbnail: images/numberbank.png
+    - title: ManyBabies
+      subtitle: Multi-site replication of infant-directed speech preference
+      href: https://datapages.github.io/manybabies
+      code: https://github.com/datapages/manybabies
+      thumbnail: images/manybabies.png
+    - title: State Incentives Map
+      subtitle: State tax subsidy programs and disclosure laws
+      href: https://datapages.github.io/subsidy-map
+      code: https://github.com/datapages/subsidy-map
+      thumbnail: images/subsidy-map.png
+    - title: Item Response Warehouse
+      subtitle: Collection of open, harmonized item response datasets
+      href: https://datapages.github.io/irw
+      code: https://github.com/datapages/irw
+      thumbnail: images/irw.png
