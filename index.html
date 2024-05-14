@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Findable, accessible, interoperable, and reusable (FAIR) data sharing is a key component of open science, but presents a challenge for researchers, especially those with limited technical expertise or resources. If datasets are shared, it’s most often as static files, restricting the FAIRness of the data. Datapages bridges this gap by enabling researchers and other data distributors to easily share versioned datasets along with interactive visualizations, rich documentation, and user-friendly access functionality.Datapages are made using Quarto, with interactive visualizations in Observable, and hosted on GitHub pages. The data are stored on Redivis.">
+<meta name="description" content="A datapage is a website for your data, showing users interactive visualizations, rich documentation, and the data itself. And whatever other content you want!Create your own datapage by using the  datapages/datapage template repository (here’s a more detailed guide).">
 
 <title>datapages - Datapages</title>
 <style>
@@ -41,6 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -106,12 +108,12 @@ ul.task-list li input[type="checkbox"] {
       .quarto-title-block .quarto-title-banner h5,
       .quarto-title-block .quarto-title-banner h6
       {
-        color: var(--bs-body-color);
+        color: var(--bs-light);
       }
 
       .quarto-title-block .quarto-title-banner {
-        color: var(--bs-body-color);
-background: var(--bs-light);
+        color: var(--bs-light);
+background: var(--bs-primary);
       }
 </style>
 
@@ -158,8 +160,8 @@ window.Quarto = {
             <p class="subtitle lead">Tools and templates for rich data sharing</p>
                   <div>
         <div class="description">
-          <p>Findable, accessible, interoperable, and reusable (FAIR) data sharing is a key component of open science, but presents a challenge for researchers, especially those with limited technical expertise or resources. If datasets are shared, it’s most often as static files, restricting the FAIRness of the data. Datapages bridges this gap by enabling researchers and other data distributors to easily share versioned datasets along with interactive visualizations, rich documentation, and user-friendly access functionality.</p>
-          <p>Datapages are made using <a href="https://quarto.org/">Quarto</a>, with interactive visualizations in <a href="https://observablehq.com/">Observable</a>, and hosted on <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub pages</a>. The data are stored on <a href="https://redivis.com">Redivis</a>.</p>
+          <p>A datapage is a website for your data, showing users interactive visualizations, rich documentation, and the data itself. And whatever other content you want!</p>
+          <p>Create your own datapage by using the <a href="https://github.com/datapages/datapage"><i class="fa-brands fa-github" aria-label="github"></i> datapages/datapage</a> template repository (<a href="https://github.com/datapages/datapage/tree/main?tab=readme-ov-file#readme">here’s a more detailed guide</a>).</p>
         </div>
       </div>
                 </div>
@@ -185,11 +187,15 @@ window.Quarto = {
 
 
 
+<!-- :::{.column-page} -->
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>Findable, accessible, interoperable, and reusable (FAIR) data sharing is a key component of open science, but presents a challenge for researchers, especially those with limited technical expertise or resources. If datasets are shared, it’s most often as static files, restricting the FAIRness of the data. Datapages bridges this gap by enabling researchers and other data distributors to easily share versioned datasets along with interactive visualizations, rich documentation, and user-friendly access functionality.</p>
+<p>Datapages are made using <a href="https://quarto.org/">Quarto</a>, with interactive visualizations in <a href="https://observablehq.com/">Observable</a>, and hosted on <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub pages</a>. The data are stored on <a href="https://redivis.com">Redivis</a>. <!-- ::: --></p>
+</section>
+<section id="gallery" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="gallery">Gallery</h2>
 <div id="listing-gallery" class="column-page quarto-listing quarto-listing-container-custom">
-
-<h2 class="anchored">Gallery</h2>
-
-<p></p>
 
 <div class="list grid" style="column-gap: 10px;">
 
@@ -328,6 +334,7 @@ No matching items
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -411,7 +418,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/datapages\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -740,6 +747,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Datapages is built by <a href="https://mikabr.io/">Mika Braginsky</a> and <a href="https://web.stanford.edu/~mcfrank/">Mike Frank</a> at Stanford University and licensed under <a href="https://github.com/datapages/datapage/tree/main?tab=GPL-3.0-1-ov-file">GNU GPL v3</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/datapages/datapages.github.io">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
