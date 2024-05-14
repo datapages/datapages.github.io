@@ -3,16 +3,18 @@ project:
 
 website:
   title: "datapages"
-  # navbar:
-  #   left:
-  #     - href: index.qmd
-  #       text: Home
-  #     - about.qmd
+  page-footer:
+    background: light
+    left: |
+      Datapages is built by [Mika Braginsky](https://mikabr.io/) and [Mike Frank](https://web.stanford.edu/~mcfrank/) at Stanford University and licensed under [GNU GPL v3](https://github.com/datapages/datapage/tree/main?tab=GPL-3.0-1-ov-file).
+    right: 
+      - icon: github
+        href: https://github.com/datapages/datapages.github.io
 
 format:
   html:
-    title-block-banner: var(--bs-light)
-    title-block-banner-color: var(--bs-body-color)
+    title-block-banner: var(--bs-primary)
+    title-block-banner-color: var(--bs-light)
     theme: [cosmo, theme.scss]
     mainfont: Nunito Sans
     fontsize: 1rem
