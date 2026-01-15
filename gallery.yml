@@ -10,6 +10,11 @@
       href: https://datapages.github.io/project-loon
       code: https://github.com/datapages/project-loon
       thumbnail: images/project-loon.png
+    - title: Refbank
+      subtitle: Conversation data from referential communication tasks
+      href: https://refbank.github.io/
+      code: https://github.com/refbank/refbank.github.io
+      thumbnail: images/refbank.png
     - title: Item Response Warehouse
       subtitle: Collection of open, harmonized item response datasets
       href: https://datapages.github.io/irw
@@ -20,11 +25,6 @@
       href: https://manybabies.org/mb1-datapage/
       code: https://github.com/manybabies/mb1-datapage
       thumbnail: images/manybabies.png
-    - title: Refbank
-      subtitle: Conversation data from referential communication tasks
-      href: https://refbank.github.io/
-      code: https://github.com/refbank/refbank.github.io
-      thumbnail: images/refbank.png
     - title: Numberbank
       subtitle: "Collaborative database of children's numerical language"
       href: https://datapages.github.io/numberbank
